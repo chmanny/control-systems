@@ -2,7 +2,7 @@
 
 This repository contains a Python implementation of the [Root locus](https://en.wikipedia.org/wiki/Root_locus_analysis) plot, a graphical method widely used in control systems engineering to analyze the stability and performance of a system as a parameter (usually the feedback gain $K$) is varied.
 
-This project was developed for a Control Systems course, implementing the calculations both as a CLI script and a step-by-step Jupyter Notebook.
+This project was developed for a Control Systems course, implementing the calculations as a step-by-step Jupyter Notebook.
 
 ## Features
 
