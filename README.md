@@ -39,10 +39,9 @@ Alternatively, you can use Python's built-in `venv` and `pip`:
      ```cmd
      .venv\Scripts\activate
      ```
-3. Install the dependencies and Jupyter:
+3. Install the project and its dependencies:
    ```bash
    pip install -e .
-   pip install jupyterlab
    ```
 4. Launch Jupyter Lab:
    ```bash
@@ -130,16 +129,17 @@ Below is a screenshot of the interactive designer dashboard:
 The project requires **Python >= 3.12**.
 
 ### Dependencies
-All required packages are managed in `pyproject.toml`:
+All required packages are defined and managed in [pyproject.toml](file:///mnt/Data/Projects/python/control_systems/pyproject.toml):
 
-| Dependency | Purpose |
-| :--- | :--- |
-| `control` | Control systems library (transfer functions, root locus) |
-| `numpy` | Numerical calculations, polynomials, and roots |
-| `matplotlib` | High-quality plotting and visualization |
-| `sympy` | Symbolic mathematics (derivative, equation solving) |
-| `ipykernel` | Jupyter Notebook kernel support |
-| `ipywidgets` | Interactive widgets (sliders, text inputs, layout) |
+| Dependency | Version Requirement | Purpose |
+| :--- | :--- | :--- |
+| `control` | `>=0.10.2` | Control systems library (transfer functions, root locus) |
+| `numpy` | *(Transitive dependency)* | Numerical calculations, polynomials, and roots |
+| `matplotlib` | `==3.10.9` | High-quality plotting and visualization |
+| `sympy` | `>=1.14.0` | Symbolic mathematics (derivative, equation solving) |
+| `ipykernel` | `==7.3.0` | Jupyter Notebook kernel support |
+| `ipywidgets` | `>=8.1.8` | Interactive widgets (sliders, text inputs, layout) |
+| `jupyterlab` | `>=4.5.8` | Interactive notebook web environment |
 
 ---
 
