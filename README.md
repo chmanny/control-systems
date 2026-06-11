@@ -83,7 +83,7 @@ A detailed, step-by-step Jupyter Notebook implementing the [Root Locus](https://
 
 ### Visualization
 
-Below is a generated plot of the root locus for the transfer function $G(s) = \frac{s^2 + 6s + 12}{s^3 + 2s^2 - 4s - 8}$:
+Below is a generated plot of the root locus for the transfer function $G(s) = \dfrac{s^2 + 6s + 12}{s^3 + 2s^2 - 4s - 8}$:
 
 ![Root Locus Plot](assets/sample_rlocus.png)
 
