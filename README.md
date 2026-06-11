@@ -1,6 +1,6 @@
 # Control Systems in Python
 
-This repository contains Python tools for control systems engineering, developed for a Control Systems course. It includes two interactive Jupyter Notebooks:
+This repository contains Python tools for control systems engineering. It includes two interactive Jupyter Notebooks:
 
 1. **Root Locus Analysis** ([rlocus.ipynb](rlocus.ipynb)) — A step-by-step mathematical breakdown of the root locus method.
 2. **Interactive PID Controller Designer** ([control_system_designer.ipynb](control_system_designer.ipynb)) — A real-time dashboard for tuning PID controllers with visual feedback inspired by the [MATLAB Control System Toolbox](https://www.mathworks.com/help/control/index.html)
