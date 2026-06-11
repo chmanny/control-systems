@@ -77,8 +77,8 @@ A detailed, step-by-step Jupyter Notebook implementing the [Root Locus](https://
 4. Modify the transfer function in the open-loop definition cell to analyze different systems. Enter the coefficients of the numerator and denominator polynomials as lists in the `num` and `den` variables. You must enter all coefficients (even for terms with 0 coefficients). E.g.:
 
    ```python
-   num = [2, -4]  # 2s - 4
-   den = [1, 2, 2]  # s^2 + 2s + 2
+   num = [1, 6, 12]      # s^2 + 6s + 12
+   den = [1, 2, -4, -8]  # s^3 + 2s^2 - 4s - 8
    ```
 
 ### Visualization
